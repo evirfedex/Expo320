@@ -6,7 +6,7 @@ Projeto para adição de bibliotecas com vulnerabilidade removidas para uso no e
 
 ## A criação, bem como a execução de testes, se deram com as seguintes especificações:
 	create-expo 3.2.0
-	MacOS 16.2 Spple Silicon
+	MacOS 15.0 Spple Silicon
  	Xcode 16.2
 	iOS Simulator iPhone 15 Pro iOS 17.5
 	Node 18.20.5
