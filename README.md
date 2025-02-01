@@ -8,7 +8,7 @@ Projeto para adição de bibliotecas com vulnerabilidade removidas para uso no e
 	create-expo 3.2.0
 	MacOS 15.0 Apple Silicon
  	Xcode 16.2
-	iOS Simulator iPhone 15 Pro iOS 17.5
+	iOS Simulator iPhone 16 Pro iOS 18.2
 	Node 18.20.5
 	npm/npx 10.8.2
 	expo 52.0.28
