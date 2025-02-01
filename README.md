@@ -11,6 +11,8 @@ Projeto para adição de bibliotecas com vulnerabilidade removidas para uso no e
 	iOS Simulator iPhone 16 Pro iOS 18.2
 	Node 18.20.5
 	npm/npx 10.8.2
+	react 18.3.1
+	react-native 0.76.6
 	expo 52.0.28
 	expo-camera 16.0.14
  	expo-notifications 0.29.13
