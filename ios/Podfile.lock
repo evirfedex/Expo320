@@ -227,6 +227,8 @@ PODS:
     - ExpoModulesCore
     - ZXingObjC/OneD
     - ZXingObjC/PDF417
+  - ExpoDevice (7.0.2):
+    - ExpoModulesCore
   - ExpoFileSystem (18.0.7):
     - ExpoModulesCore
   - ExpoFont (13.0.3):
@@ -2065,6 +2067,7 @@ DEPENDENCIES:
   - ExpoAsset (from `../node_modules/expo-asset/ios`)
   - ExpoBlur (from `../node_modules/expo-blur/ios`)
   - ExpoCamera (from `../node_modules/expo-camera/ios`)
+  - ExpoDevice (from `../node_modules/expo-device/ios`)
   - ExpoFileSystem (from `../node_modules/expo-file-system/ios`)
   - ExpoFont (from `../node_modules/expo-font/ios`)
   - ExpoHaptics (from `../node_modules/expo-haptics/ios`)
@@ -2183,6 +2186,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-blur/ios"
   ExpoCamera:
     :path: "../node_modules/expo-camera/ios"
+  ExpoDevice:
+    :path: "../node_modules/expo-device/ios"
   ExpoFileSystem:
     :path: "../node_modules/expo-file-system/ios"
   ExpoFont:
@@ -2359,6 +2364,7 @@ SPEC CHECKSUMS:
   ExpoAsset: 6cc988c426b5fc997859cc0f8f6728d1376bf53f
   ExpoBlur: 567af66164e3043a9a30069594aed1ddf0a88d97
   ExpoCamera: 5fae8d4e487f1015df31298603fd1b38770934f6
+  ExpoDevice: 82da2577196c2ddee18189da65f754ea83003d2e
   ExpoFileSystem: a0a5c44d3d3e8a2aa54fe7c70c7690df03cf4dd8
   ExpoFont: 8b14db1afebf62e9774613a082e402985f4e747c
   ExpoHaptics: e01cce0741d68c281853118eb0267f88d42c6b7a
