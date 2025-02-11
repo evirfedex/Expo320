@@ -1,9 +1,3 @@
-2025-02-11 16:06:30.554 xcodebuild[29096:7946027]  DVTAssertions: Warning in DVTiOSFrameworks/DTDeviceKitBase/DTDKRemoteDeviceData.m:409
-Details:  (null) deviceType from 10600114114af3197f92f32d4f6de3c8d4264c14 was NULL when -platform called.
-Object:   <DTDKMobileDeviceToken: 0x118bbcb60>
-Method:   -platform
-Thread:   <NSThread: 0x110250fd0>{number = 3, name = (null)}
-Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
 --- xcodebuild: WARNING: Using the first of multiple matching destinations:
 { platform:iOS Simulator, id:256DBBB6-F991-4955-B794-7E6BBFEF5802, OS:18.2, name:iPhone 16 Pro }
 { platform:iOS Simulator, id:256DBBB6-F991-4955-B794-7E6BBFEF5802, OS:18.2, name:iPhone 16 Pro }
