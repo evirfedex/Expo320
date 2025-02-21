@@ -18,6 +18,19 @@ Projeto para adição de bibliotecas com vulnerabilidade removidas para uso no e
  	expo-notifications 0.29.13
 	react-native-vector-icons 10.2.0
 	biomejs/biome 1.9.4
+
+	@types/react-native 0.72.7
+	expo-constants 17.0.5
+	expo-device 7.0.2
+	expo-font 13.0.3
+	expo-splash-screen 0.29.21
+	expo-status-bar 2.0.1
+	react-native 0.76.7
+	react-native-gesture-handler 2.23.1
+	react-native-screens 4.6.0
+	axios 1.7.4
+	react-native-fs 2.20.0
+
 ### Todas as versões são as estáveis mais recente
 
 
