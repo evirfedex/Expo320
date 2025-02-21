@@ -9,7 +9,8 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "postinstall": "sed -i '' '/<package id=\"ReactNative.Hermes.Windows\" version=\"0.9.0-ms.4\" targetFramework=\"native\" \\/>/d' node_modules/react-native-share/windows/ReactNativeShare/packages.config && sed -i '' '/<package id=\"Newtonsoft.Json\" version=\"10.0.3\" targetFramework=\"net46\" \\/>/d' node_modules/react-native-fs/windows/RNFS.Net46/packages.config"
   },
   "jest": {
     "preset": "jest-expo"
