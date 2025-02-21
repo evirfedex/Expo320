@@ -4,6 +4,11 @@ Projeto para adição de bibliotecas com vulnerabilidade removidas para uso no e
 ## Exemplo de execucao:
 	$ npx expo run:ios
 
+### Obs para desenvolvimento em Windows: 
+- Se for desenvolver esse projeto em Windows com as bibliotecas , vai ser necessario comentar/remover a linha em "package.json -> Scripts -> postinstall", pois o Scan Sonatype detectou vulnerabilidades(apenas para windows) respectivamente do Hermes e NewtonsoftJson. 
+- Dessa forma o deploy para produção(do Android e do iOS) serão feitos a partir de um Mac, com essa linha de postinstall ativa.
+- Para mais detalhes sobre isso, ler descrição do commit: 1a4dbc4df88fe8a022e2b134fd426089b1599387
+
 ## A criação, bem como a execução de testes, se deram com as seguintes especificações:
 	create-expo 3.2.0
 	MacOS 15.0 Apple Silicon
