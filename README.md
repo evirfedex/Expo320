@@ -30,6 +30,7 @@ Projeto para adição de bibliotecas com vulnerabilidade removidas para uso no e
 	react-native-screens 4.6.0
 	axios 1.7.4
 	react-native-fs 2.20.0
+	react-native-share 12.0.9
 
 ### Todas as versões são as estáveis mais recente
 
