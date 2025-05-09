@@ -1,22 +1,24 @@
 {
   "expo": {
-    "name": "Expo320",
-    "slug": "Expo320",
+    "name": "vir_br",
+    "slug": "vir_br",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "virbr",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.evirfedex.Expo320"
+      "bundleIdentifier": "com.evirfedex.vir-br"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.evirfedex.virbr"
     },
     "web": {
       "bundler": "metro",
@@ -37,7 +39,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "jsEngine": "hermes"
+    }
   }
 }

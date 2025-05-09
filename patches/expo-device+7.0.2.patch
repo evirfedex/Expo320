@@ -1,0 +1,21 @@
+diff --git a/node_modules/expo-device/.DS_Store b/node_modules/expo-device/.DS_Store
+new file mode 100644
+index 0000000..7083c2c
+Binary files /dev/null and b/node_modules/expo-device/.DS_Store differ
+diff --git a/node_modules/expo-device/ios/UIDevice.swift b/node_modules/expo-device/ios/UIDevice.swift
+index 6866b89..2a349bf 100644
+--- a/node_modules/expo-device/ios/UIDevice.swift
++++ b/node_modules/expo-device/ios/UIDevice.swift
+@@ -183,7 +183,11 @@ public extension UIDevice {
+ 
+   // Credit: https://github.com/developerinsider/isJailBroken/blob/master/IsJailBroken/Extension/UIDevice%2BJailBroken.swift
+   var isSimulator: Bool {
+-    return TARGET_OS_SIMULATOR != 0
++    #if targetEnvironment(simulator)
++    return true
++    #else
++    return false
++    #endif
+   }
+ 
+   var isJailbroken: Bool {
